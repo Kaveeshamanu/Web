@@ -14,10 +14,10 @@
 
     <div class="list-container">
         <div class="avatar">
-            <img class="img" src="" alt="">
-            <img class="img" src="" alt="">
-            <img class="img" src="" alt="">
-            <img class="img" src="" alt="">
+            <img class="img" src="img/avatar-01.jpg" width="40" height="40" alt="avatar-01">
+            <img class="img" src="img/avatar-02.jpg" width="40" height="40" alt="avatar-02">
+            <img class="img" src="img/avatar-03.jpg" width="40" height="40" alt="avatar-03">
+            <img class="img" src="img/avatar-04.jpg" width="40" height="40" alt="avatar-04">
         </div>
 
         <div class="list-h1">
@@ -48,5 +48,50 @@
             </ul>
         </div>
     </div>
+
+    <div class="form-signup">
+        <div class="form-h3">Lets talk</div> <!--some div should be right there-->
+        <form action="">
+            <div class="lbl-form">
+                <label for="name">Name <span class="ast-form">*</span></label><br>
+                <input id="name" class="name" type="text" required>
+            </div>
+
+            <div class="lbl-form">
+                <label  for="surname">Surname <span class="ast-form">*</span></label><br>
+                <input id="surname" class="surname" type="text" required>
+            </div>
+
+            <div class="lbl-form">
+                <label  for="email">Email <span class="ast-form">*</span></label><br>
+                <input id="email" class="email" type="email" required>
+            </div>
+
+            <div class="lbl-form">
+                <label  for="phone">Phone <span class="ast-form">*</span></label><br>
+                <input id="phone" class="phone" type="text" required>
+            </div>
+
+            <div class="lbl-form">
+                <label  for="referre">How did you hear about us? <span class="ast-form">*</span></label><br>
+                <select id="referre" class="referre">
+                    <option value="">Twitter</option>
+                    <option value="">Medium</option>
+                    <option value="">Github</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="message">How can we help with?<span class="ast-form">*</span></label>
+                <textarea class="message" id="message" rows="4" required></textarea>   
+            </div>
+
+            <div class="btn-form">
+                <button class="btn">Request Demo
+                    <span class="icon-1">-></span>
+                </button>
+            </div>
+        </form>
+    </div><!-- 1 div from here-->
 </body>
 </html>
