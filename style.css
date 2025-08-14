@@ -3,7 +3,7 @@
   font-weight: 700;
   font-style: normal;
   font-display: fallback;
-  src: url(fonts/HKGrotesk-Bold.woff2)format("woff2"),url(fonts/HKGrotesk-Bold.woff)format("woff")
+  src: url(font/HKGrotesk-Bold.woff2)format("woff2"),url(font/HKGrotesk-Bold.woff)format("woff")
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-weight: 800;
   font-style: normal;
   font-display: fallback;
-  src: url(fonts/HKGrotesk-ExtraBold.woff2)format("woff2"),url(fonts/HKGrotesk-ExtraBold.woff)format("woff")
+  src: url(font/HKGrotesk-ExtraBold.woff2)format("woff2"),url(font/HKGrotesk-ExtraBold.woff)format("woff")
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   font-weight: 500;
   font-style: normal;
   font-display: fallback;
-  src: url(fonts/HKGrotesk-Medium.woff2)format("woff2"),url(fonts/HKGrotesk-Medium.woff)format("woff")
+  src: url(font/HKGrotesk-Medium.woff2)format("woff2"),url(font/HKGrotesk-Medium.woff)format("woff")
 }
 
 *,::before,::after {
