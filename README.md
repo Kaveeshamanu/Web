@@ -1,2 +1,2 @@
 # Landing Page
-# combination of HTML, CSS, TailwindCSS & JavaScript
+# <small>combination of HTML, CSS, TailwindCSS & JavaScript<small>
